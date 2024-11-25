@@ -1,0 +1,68 @@
+.user-profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw; 
+    background: linear-gradient(135deg, #1a1c2c, #111);
+    color: #03e9f4;
+    font-family: 'Orbitron', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .profile-content {
+    background: #111;
+    border: 1px solid #03e9f4;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(3, 233, 244, 0.5);
+  }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #03e9f4;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  .profile-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #03e9f4;
+    border-radius: 5px;
+    background: #222;
+    color: #03e9f4;
+    outline: none;
+  }
+  
+  .profile-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: linear-gradient(90deg, #03e9f4, #1a8cff);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 15px rgba(3, 233, 244, 0.8);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .profile-button:hover {
+    background: linear-gradient(90deg, #1a8cff, #03e9f4);
+    box-shadow: 0 0 30px rgba(26, 140, 255, 0.8);
+  }
+  

@@ -1,0 +1,27 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(135deg, #1a1c2c, #111);
+  color: #03e9f4;
+}
+
+.full-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.scrollable-content {
+  height: calc(100vh - 60px); /* Adjust for the navbar */
+  overflow-y: auto;
+  width: 100%;
+  padding: 20px;
+}

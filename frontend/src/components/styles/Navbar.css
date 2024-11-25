@@ -1,0 +1,94 @@
+
+.alien-navbar {
+    background: linear-gradient(90deg, #1d1f33, #111);
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000; 
+    border-bottom: 2px solid #03e9f4;
+    box-shadow: 0 4px 15px rgba(3, 233, 244, 0.5);
+  }
+  
+  .alien-navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .alien-navbar-item {
+    margin: 0 20px;
+  }
+  
+  .alien-navbar-link {
+    color: #03e9f4;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  .alien-navbar-link:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 30px #03e9f4;
+  }
+  
+  .alien-navbar-link::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: #03e9f4;
+    transition: width 0.3s ease;
+    margin: 5px auto 0;
+  }
+  
+  .alien-navbar-link:hover::after {
+    width: 100%;
+  }
+  
+  
+  body {
+    margin: 0;
+    padding-top: 70px; 
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .alien-navbar {
+      padding: 10px;
+    }
+  
+    .alien-navbar-link {
+      font-size: 1rem;
+    }
+  
+    .alien-navbar-item {
+      margin: 0 10px;
+    }
+  }
+  
+
+ 
+.connect-wallet-btn {
+    padding: 8px 15px;
+    background: linear-gradient(90deg, #1a8cff, #03e9f4);
+    color: #81156f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 15px rgba(3, 233, 244, 0.8);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .connect-wallet-btn:hover {
+    background: linear-gradient(90deg, #03e9f4, #1a8cff);
+    box-shadow: 0 0 30px rgba(26, 140, 255, 0.8);
+  }

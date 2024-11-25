@@ -1,0 +1,73 @@
+
+.create-post-container {
+  background: linear-gradient(135deg, #1a1c2c, #111);
+  color: #03e9f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(3, 233, 244, 0.5);
+  max-width: 600px;
+  margin: 50px auto; 
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+.create-post-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #03e9f4;
+  text-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4;
+}
+
+
+.create-post-container input,
+.create-post-container textarea {
+  width: 100%;
+  background: #111;
+  color: #03e9f4;
+  border: 1px solid #03e9f4;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  box-shadow: 0 0 5px rgba(3, 233, 244, 0.3);
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.create-post-container input:focus,
+.create-post-container textarea:focus {
+  outline: none;
+  background: #1d1f33;
+  box-shadow: 0 0 10px rgba(3, 233, 244, 0.6);
+}
+
+
+.create-post-container button {
+  width: 100%;
+  background: linear-gradient(90deg, #03e9f4, #1a8cff);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-family: 'Orbitron', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.create-post-container button:hover {
+  background: linear-gradient(90deg, #1a8cff, #03e9f4);
+  box-shadow: 0 0 15px rgba(3, 233, 244, 0.8), 0 0 30px rgba(26, 140, 255, 0.8);
+}
+
+
+@media (max-width: 768px) {
+  .create-post-container {
+    padding: 15px;
+  }
+
+  .create-post-container button {
+    font-size: 1rem;
+  }
+}
